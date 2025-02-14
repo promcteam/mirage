@@ -7,7 +7,7 @@
     <parent>
         <groupId>studio.magemonkey</groupId>
         <artifactId>magemonkey-parent</artifactId>
-        <version>1.21.4-R0.1</version>
+        <version>1.21.4-R0.3</version>
     </parent>
 
     <artifactId>mirage</artifactId>
@@ -42,6 +42,12 @@
         <repository>
             <id>neetgames</id>
             <url>https://nexus.neetgames.com/repository/maven-releases/</url>
+        </repository>
+
+        <repository>
+            <id>oraxen</id>
+            <name>Oraxen Repository</name>
+            <url>https://repo.oraxen.com/releases</url>
         </repository>
 
         <repository>
@@ -105,9 +111,9 @@
             <scope>compile</scope>
         </dependency>
         <dependency>
-            <groupId>com.github.oraxen</groupId>
+            <groupId>io.th0rgal</groupId>
             <artifactId>oraxen</artifactId>
-            <version>1.157.3</version>
+            <version>1.189.0</version>
             <scope>provided</scope>
             <exclusions>
                 <exclusion>
